@@ -103,17 +103,6 @@ global.channelLink = "https://whatsapp.com/channel/0029VajbiIfAjPXO45zG2i2c";
 global.ytch = "ALPHA-KING-TECH";
 
 // Add this near the top of main.js with other global configurations
-const channelInfo = {
-    contextInfo: {
-        forwardingScore: 1,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-            newsletterJid: '12036316151368998@newsletter',
-            newsletterName: 'B͎E͎N͎Z͎ C͎O͎M͎P͎A͎N͎Y͎ X͎M͎D͎',
-            serverMessageId: -1
-        }
-    }
-};
 
 async function handleMessages(sock, messageUpdate, printLog) {
     try {
