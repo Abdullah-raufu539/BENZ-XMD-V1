@@ -83,7 +83,7 @@ const store = {
 let phoneNumber = "263718728504"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "B͎E͎N͎Z͎ C͎O͎M͎P͎A͎N͎Y͎ X͎M͎D͎"
+global.botname = "★~ĂB Đ●ĽÅH ♡💲♧"
 global.themeemoji = "•"
 
 const settings = require('./settings')
@@ -155,7 +155,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '12036316151365998@newsletter',
-                                newsletterName: 'B͎E͎N͎Z͎ C͎O͎M͎P͎A͎N͎Y͎ X͎M͎D͎',
+                                newsletterName: '★~ĂB Đ●ĽÅH ♡💲♧',
                                 serverMessageId: -1
                             }
                         }
@@ -256,25 +256,12 @@ ALPHA-KING-TECH
 \n\n BENZ XMD is Connected Successfully!
 \n\n⏰ Time: ${new Date().toLocaleString()}\n
 ✅ Status: Online and Ready!
-\n✅Make sure to join below channel
-:https://whatsapp.com/channel/0029VajbiIfAjPXO45zG2i2c
-             
-JOIN BENZ COMPANY FOR UPDATES🤩  
-                
-                `,
-                contextInfo: {
-                    forwardingScore: 1,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036316513685998@newsletter',
-                        newsletterName: 'B͎E͎N͎Z͎ C͎O͎M͎P͎A͎N͎Y͎ X͎M͎D͎',
-                        serverMessageId: -1
-                    }
-                }
+            
+
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'B͎E͎N͎Z͎ C͎O͎M͎P͎A͎N͎Y͎ X͎M͎D͎'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || '★~ĂB Đ●ĽÅH ♡💲♧'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
             console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: ALPHA-KING-TECH ͎`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: ALPHA-KING-TECH `))
